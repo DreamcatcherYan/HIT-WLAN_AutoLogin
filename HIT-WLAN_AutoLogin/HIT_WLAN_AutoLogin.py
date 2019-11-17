@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import requests
 import urllib
 import tkinter
@@ -41,8 +43,8 @@ def read_data():
     try:
         with open(r'data.json', 'r') as f:
             data = json.load(f)
-        except FileNotFoundError:
-            return 0
+    except FileNotFoundError:
+        return 0
 
     return data
 
@@ -62,9 +64,6 @@ def save_data():
 
 
 def draw_window():
-    ''' 绘制初次登陆界面 '''
-    
-    
     ''' 设置窗口 '''
     window = tkinter.Tk()
     window.title('HIT-WLAN Auto Login')
