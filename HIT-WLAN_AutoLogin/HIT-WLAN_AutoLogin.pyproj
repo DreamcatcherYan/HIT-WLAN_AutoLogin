@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>eed05b5c-68bd-4d19-9551-05f8948f1083</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HIT_WLAN_AutoLogin.py</StartupFile>
+    <StartupFile>LinuxAutoLogin.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HIT_WLAN_AutoLogin.py" />
+    <Compile Include="LinuxAutoLogin.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
