@@ -114,7 +114,7 @@ def main():
         password = read_data().split('$')[1]
         auto_login(username, password)
 
-        wait=input('press any key to exit')
+        wait=input('press enter to exit')
 
 
 if __name__ == '__main__':
